@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_05_Task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PyATB6xLearningSelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyATB6xLearningSelenium.iml" afterDir="false" />
+    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="README File Added">
+      <change afterPath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_06_All_Browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_07_OptionClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_08_Project_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_09_Project_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_10_Projects_Parallel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex_01_Selenium_Basics/test_Selenium_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_01_Selenium_Basics/test_Selenium_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex_01_Selenium_Basics/test_Selenium_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_01_Selenium_Basics/test_Selenium_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex_01_Selenium_Basics/test_Selenium_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_01_Selenium_Basics/test_Selenium_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +62,16 @@
     "Python tests.Python tests in test_Selenium_01.py.executor": "Run",
     "Python tests.Python tests in test_Selenium_02.py.executor": "Run",
     "Python tests.Python tests in test_Selenium_04.py.executor": "Run",
+    "Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification.executor": "Run",
     "Python tests.pytest in test_Selenium_01.py.executor": "Run",
     "Python tests.pytest in test_Selenium_02.py.executor": "Run",
     "Python tests.pytest in test_Selenium_03.py.executor": "Run",
     "Python tests.pytest in test_Selenium_04.py.executor": "Run",
     "Python tests.pytest in test_Selenium_05_Task.py.executor": "Run",
+    "Python tests.pytest in test_Selenium_06_All_Browser.py.executor": "Run",
+    "Python tests.pytest in test_Selenium_07_OptionClass.py.executor": "Run",
+    "Python tests.pytest in test_Selenium_08_Project_01.py.executor": "Run",
+    "Python tests.pytest in test_Selenium_09_Project_02.py.executor": "Run",
     "Python.test_Selenium_01.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,6 +84,11 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\harsh\PycharmProjects\PythonProject\PyATB6xLearningSelenium\src\Ex_03_Selenium_Mini_Projects_Locators" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="test_Selenium_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyATB6xLearningSelenium" />
@@ -136,8 +145,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PyATB6xLearningSelenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification" />
         <item itemvalue="Python.test_Selenium_01" />
         <item itemvalue="Python tests.Python tests for src.Ex_01_Selenium_Basics.test_Selenium_02.test_first_TC" />
         <item itemvalue="Python tests.Python tests in test_Selenium_01.py" />
@@ -159,6 +187,19 @@
       <option name="presentableId" value="Default" />
       <updated>1777715680777</updated>
     </task>
+    <task id="LOCAL-00001" summary="README File Added">
+      <option name="closed" value="true" />
+      <created>1777895106384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777895106384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README File Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="README File Added" />
   </component>
 </project>
