@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="README File Added">
-      <change afterPath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_06_All_Browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_02_Selenium_Commands/test_Selenium_07_OptionClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_08_Project_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_09_Project_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_10_Projects_Parallel.py" afterDir="false" />
+    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="25th New">
+      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_selenium_11_Project_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_selenium_project_04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_08_Project_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_08_Project_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_09_Project_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_09_Project_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_10_Projects_Parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_Selenium_10_Projects_Parallel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +54,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for src.Ex_01_Selenium_Basics.test_Selenium_02.test_first_TC.executor": "Run",
-    "Python tests.Python tests in test_Selenium_01.py.executor": "Run",
-    "Python tests.Python tests in test_Selenium_02.py.executor": "Run",
-    "Python tests.Python tests in test_Selenium_04.py.executor": "Run",
-    "Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification.executor": "Run",
-    "Python tests.pytest in test_Selenium_01.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_02.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_03.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_04.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_05_Task.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_06_All_Browser.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_07_OptionClass.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_08_Project_01.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_09_Project_02.py.executor": "Run",
-    "Python.test_Selenium_01.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for src.Ex_01_Selenium_Basics.test_Selenium_02.test_first_TC.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Selenium_01.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Selenium_02.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Selenium_04.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_01.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_02.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_03.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_04.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_05_Task.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_06_All_Browser.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_07_OptionClass.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_08_Project_01.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_09_Project_02.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_10_Projects_Parallel.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_11_Project_03.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_project_04.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_Selenium_01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\harsh\PycharmProjects\PythonProject\PyATB6xLearningSelenium\src\Ex_03_Selenium_Mini_Projects_Locators" />
@@ -195,11 +197,20 @@
       <option name="project" value="LOCAL" />
       <updated>1777895106384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="25th New">
+      <option name="closed" value="true" />
+      <created>1778144352849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778144352849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README File Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="README File Added" />
+    <MESSAGE value="25th New" />
+    <option name="LAST_COMMIT_MESSAGE" value="25th New" />
   </component>
 </project>

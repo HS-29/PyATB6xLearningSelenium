@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import *
 # With Positive Test Case
 def test_project1_katalon():
     chrome_options = Options()
-    chrome_options.add_argument("--start maximized")
+    chrome_options.add_argument("--start-maximized")
     driver = webdriver.Chrome(chrome_options)
     driver.get("https://katalon-demo-cura.herokuapp.com/")
 

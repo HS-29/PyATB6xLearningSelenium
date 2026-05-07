@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import *
 # With Negative Test Case
 def test_project1_katalon():
     chrome_options = Options()
-    chrome_options.add_argument("--start maximized")
-    driver = webdriver.Chrome(chrome_options)
+    chrome_options.add_argument("--start-maximized")
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://katalon-demo-cura.herokuapp.com/")
 
     make_appointment_element = driver.find_element(By.ID,"btn-make-appointment")

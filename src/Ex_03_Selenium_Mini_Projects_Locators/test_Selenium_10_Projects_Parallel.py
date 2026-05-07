@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import *
 # With Positive Test Case
 def test_project1_katalon():
     chrome_options = Options()
-    chrome_options.add_argument("--start maximized")
-    driver = webdriver.Chrome(chrome_options)
+    chrome_options.add_argument("--start-maximized")
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://katalon-demo-cura.herokuapp.com/")
 
     make_appointment_element = driver.find_element(By.ID,"btn-make-appointment")
@@ -36,13 +36,13 @@ import time
 #from calendar import error
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import *
+from selenium.webdriver.common.by import By
 
 # With Negative Test Case
 def test1_project1_katalon():
     chrome_options = Options()
-    chrome_options.add_argument("--start maximized")
-    driver = webdriver.Chrome(chrome_options)
+    chrome_options.add_argument("--start-maximized")
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://katalon-demo-cura.herokuapp.com/")
 
     make_appointment_element = driver.find_element(By.ID,"btn-make-appointment")
