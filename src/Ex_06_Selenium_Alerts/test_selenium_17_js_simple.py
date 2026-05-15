@@ -3,7 +3,6 @@ import allure
 import pytest
 
 from selenium import webdriver
-from selenium.webdriver import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
@@ -12,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 @allure.title("app.vwo.com Implicit Waits")
-@allure.description("verift that app.vwo.com is loaded with waits")
+@allure.description("verify that app.vwo.com is loaded with waits")
 
 
 def test_project_alert_js_simple():

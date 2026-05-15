@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="mini project">
-      <change afterPath="$PROJECT_DIR$/src/Ex_04_Selenium_Locators_Project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_04_Selenium_Locators_Project/test_selenium_13_projects_VWO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_04_Selenium_Locators_Project/test_selenium_14_projects_VWO_FT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_05_Selenium_Waits/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_05_Selenium_Waits/test_selenium_15_waits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_05_Selenium_Waits/test_selenium_16_fluentwait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_17_js_simple.py" afterDir="false" />
+    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="wait and alert">
+      <change afterPath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_18_popup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_07_Selenium_Exceptions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_07_Selenium_Exceptions/test_selenium_19_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_07_Selenium_Exceptions/test_selenium_20_stale.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_selenium_project_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_03_Selenium_Mini_Projects_Locators/test_selenium_12_project_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_17_js_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_17_js_simple.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +79,9 @@
     "Python tests.pytest in test_selenium_15_waits.py.executor": "Run",
     "Python tests.pytest in test_selenium_16_fluentwait.py.executor": "Run",
     "Python tests.pytest in test_selenium_17_js_simple.py.executor": "Run",
+    "Python tests.pytest in test_selenium_18_popup.py.executor": "Run",
+    "Python tests.pytest in test_selenium_19_exception.py.executor": "Run",
+    "Python tests.pytest in test_selenium_20_stale.py.executor": "Run",
     "Python tests.pytest in test_selenium_project_04.py.executor": "Run",
     "Python.test_Selenium_01.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -250,13 +249,22 @@
       <option name="project" value="LOCAL" />
       <updated>1778163038271</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wait and alert">
+      <option name="closed" value="true" />
+      <created>1778585189875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778585189876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README File Added" />
     <MESSAGE value="25th New" />
     <MESSAGE value="mini project" />
-    <option name="LAST_COMMIT_MESSAGE" value="mini project" />
+    <MESSAGE value="wait and alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="wait and alert" />
   </component>
 </project>
