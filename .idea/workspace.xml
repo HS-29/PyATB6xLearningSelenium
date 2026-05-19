@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="wait and alert">
-      <change afterPath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_18_popup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_07_Selenium_Exceptions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_07_Selenium_Exceptions/test_selenium_19_exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_07_Selenium_Exceptions/test_selenium_20_stale.py" afterDir="false" />
+    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/Ex_08_Selenium_SVG/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_08_Selenium_SVG/test_selenium_21_svg_part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_08_Selenium_SVG/test_selenium_22_svg_part2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_09_Selenium_Dropdown/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_09_Selenium_Dropdown/test_selenium_23_simple_dropdown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_17_js_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex_06_Selenium_Alerts/test_selenium_17_js_simple.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,9 @@
     "Python tests.pytest in test_selenium_18_popup.py.executor": "Run",
     "Python tests.pytest in test_selenium_19_exception.py.executor": "Run",
     "Python tests.pytest in test_selenium_20_stale.py.executor": "Run",
+    "Python tests.pytest in test_selenium_21_svg_part1.py.executor": "Run",
+    "Python tests.pytest in test_selenium_22_svg_part2.py.executor": "Run",
+    "Python tests.pytest in test_selenium_23_simple_dropdown.py.executor": "Run",
     "Python tests.pytest in test_selenium_project_04.py.executor": "Run",
     "Python.test_Selenium_01.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -194,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for src.Ex_06_Selenium_Alerts.test_selenium_17_js_simple.test_project_alert_js_confirm" />
         <item itemvalue="Python.test_Selenium_01" />
+        <item itemvalue="Python tests.pytest for src.Ex_06_Selenium_Alerts.test_selenium_17_js_simple.test_project_alert_js_confirm" />
         <item itemvalue="Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification" />
         <item itemvalue="Python tests.Python tests for src.Ex_01_Selenium_Basics.test_Selenium_02.test_first_TC" />
         <item itemvalue="Python tests.Python tests in test_Selenium_01.py" />
@@ -257,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778585189876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exceptions">
+      <option name="closed" value="true" />
+      <created>1778836733044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778836733044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +276,7 @@
     <MESSAGE value="25th New" />
     <MESSAGE value="mini project" />
     <MESSAGE value="wait and alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="wait and alert" />
+    <MESSAGE value="Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
   </component>
 </project>
