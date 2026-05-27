@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/Ex_08_Selenium_SVG/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_08_Selenium_SVG/test_selenium_21_svg_part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_08_Selenium_SVG/test_selenium_22_svg_part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_09_Selenium_Dropdown/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex_09_Selenium_Dropdown/test_selenium_23_simple_dropdown.py" afterDir="false" />
+    <list default="true" id="53df4054-7b7a-4d87-ad33-46471d31c91f" name="Changes" comment="SVG &amp; Simple dropdowm">
+      <change afterPath="$PROJECT_DIR$/src/Ex_10_Selenium_Actions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_10_Selenium_Actions/test_selenium_24_Actions_P1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_10_Selenium_Actions/test_selenium_25_Actions_P2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_10_Selenium_Actions/test_selenium_26_Actions_P3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_10_Selenium_Actions/test_selenium_27_Actions_P4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex_10_Selenium_Actions/test_selenium_28_Actions_P5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,9 @@
     <commands />
     <urls />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -54,56 +58,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for src.Ex_01_Selenium_Basics.test_Selenium_02.test_first_TC.executor": "Run",
-    "Python tests.Python tests in test_Selenium_01.py.executor": "Run",
-    "Python tests.Python tests in test_Selenium_02.py.executor": "Run",
-    "Python tests.Python tests in test_Selenium_04.py.executor": "Run",
-    "Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification.executor": "Run",
-    "Python tests.pytest for src.Ex_06_Selenium_Alerts.test_selenium_17_js_simple.test_project_alert_js_confirm.executor": "Run",
-    "Python tests.pytest in test_Selenium_01.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_02.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_03.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_04.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_05_Task.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_06_All_Browser.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_07_OptionClass.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_08_Project_01.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_09_Project_02.py.executor": "Run",
-    "Python tests.pytest in test_Selenium_10_Projects_Parallel.py.executor": "Run",
-    "Python tests.pytest in test_selenium_11_Project_03.py.executor": "Run",
-    "Python tests.pytest in test_selenium_13_projects_VWO.py.executor": "Run",
-    "Python tests.pytest in test_selenium_14_projects_VWO_FT.py.executor": "Run",
-    "Python tests.pytest in test_selenium_15_waits.py.executor": "Run",
-    "Python tests.pytest in test_selenium_16_fluentwait.py.executor": "Run",
-    "Python tests.pytest in test_selenium_17_js_simple.py.executor": "Run",
-    "Python tests.pytest in test_selenium_18_popup.py.executor": "Run",
-    "Python tests.pytest in test_selenium_19_exception.py.executor": "Run",
-    "Python tests.pytest in test_selenium_20_stale.py.executor": "Run",
-    "Python tests.pytest in test_selenium_21_svg_part1.py.executor": "Run",
-    "Python tests.pytest in test_selenium_22_svg_part2.py.executor": "Run",
-    "Python tests.pytest in test_selenium_23_simple_dropdown.py.executor": "Run",
-    "Python tests.pytest in test_selenium_project_04.py.executor": "Run",
-    "Python.test_Selenium_01.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for src.Ex_01_Selenium_Basics.test_Selenium_02.test_first_TC.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Selenium_01.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Selenium_02.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Selenium_04.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for src.Ex_02_Selenium_Commands.test_Selenium_06_All_Browser.test_currrent_url_verification.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for src.Ex_06_Selenium_Alerts.test_selenium_17_js_simple.test_project_alert_js_confirm.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_01.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_02.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_03.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_04.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_05_Task.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_06_All_Browser.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_07_OptionClass.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_08_Project_01.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_09_Project_02.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Selenium_10_Projects_Parallel.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_11_Project_03.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_13_projects_VWO.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_14_projects_VWO_FT.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_15_waits.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_16_fluentwait.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_17_js_simple.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_18_popup.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_19_exception.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_20_stale.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_21_svg_part1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_22_svg_part2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_23_simple_dropdown.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_24_Actions_P1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_25_Actions_P2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_26_Actions_P3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_27_Actions_P4.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_28_Actions_P5.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_selenium_project_04.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_Selenium_01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\harsh\PycharmProjects\PythonProject\PyATB6xLearningSelenium\src\Ex_03_Selenium_Mini_Projects_Locators" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test_Selenium_01">
     <configuration name="test_Selenium_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyATB6xLearningSelenium" />
       <option name="ENV_FILES" value="" />
@@ -268,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778836733044</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SVG &amp; Simple dropdowm">
+      <option name="closed" value="true" />
+      <created>1779174356210</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779174356210</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,6 +294,7 @@
     <MESSAGE value="mini project" />
     <MESSAGE value="wait and alert" />
     <MESSAGE value="Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
+    <MESSAGE value="SVG &amp; Simple dropdowm" />
+    <option name="LAST_COMMIT_MESSAGE" value="SVG &amp; Simple dropdowm" />
   </component>
 </project>
